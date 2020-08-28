@@ -1,0 +1,10 @@
+co\edu\escuelaing\sparkd\httpserver\Request.class
+co\edu\escuelaing\sparkd\modelSpringBoot\MicroSpringBoot.class
+co\edu\escuelaing\sparkd\urlreader\URLReader.class
+co\edu\escuelaing\sparkd\modelSpringBoot\ModelSpringBoot.class
+co\edu\escuelaing\sparkd\urlreader\URLScanner.class
+co\edu\escuelaing\sparkd\modelSpringBoot\HelloController.class
+co\edu\escuelaing\sparkd\modelSpringBoot\RequestMapping.class
+co\edu\escuelaing\sparkd\SparkD\SparkD.class
+co\edu\escuelaing\sparkd\httpserver\HttpServer.class
+co\edu\escuelaing\sparkd\SparkD\SparkDServer.class
