@@ -90,13 +90,18 @@ public class HttpServer {
                 break;
             }
         }
-        Request req = new Request(request.get("requestLine"));
+        if (request.get("requestLine")!= null){
+            Request req = new Request(request.get("requestLine"));
 
-        System.out.println("RequestLine: " + req);
+            System.out.println("RequestLine: " + req);
 
-        createResponse(req, new PrintWriter(
-                clientSocket.getOutputStream(), true));
-        in.close();
+            createResponse(req, new PrintWriter(
+                    clientSocket.getOutputStream(), true));
+            in.close();
+        
+        }
+        
+        
     }
 
     private String[] createEntry(String rawEntry) {
